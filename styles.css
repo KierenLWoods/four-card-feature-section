@@ -1,0 +1,133 @@
+:root{
+    --very-light-gray:hsl(0, 0%, 98%);
+    --grayish-blue:hsl(229, 6%, 66%);
+    --very-dark-blue:hsl(234, 12%, 34%)
+}
+body{
+    background-color: var(--very-light-gray);
+    color: var(--very-dark-blue);
+    font-size: 15px;
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    
+}
+.parent-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+    margin: 0;
+}
+h1{
+    font-size: 1.5rem;
+}
+
+.text-container h1, .text-container p {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.text-container p {
+    margin-top:2rem;
+    color:var(--grayish-blue);
+    font-weight: 200;
+}
+.lower-weight-title {
+    font-weight: 200;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    row-gap: 2rem;
+}
+.sub-grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    row-gap: 2rem;
+width:100%
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    border-top: solid .25rem black;
+    box-shadow:  0rem 0.5rem 4rem var(--grayish-blue) ;
+}
+
+.info-card * {
+    padding:0.5rem;
+    margin: 0;
+}
+
+.info-card h2 {
+    font-weight: 700;
+}
+
+.info-card p {
+    font-weight: 200;
+}
+
+.info-card img {
+    align-self: flex-end;
+}
+
+.supervisor {
+    border-color: hsl(180, 62%, 55%);
+}
+
+.team-builder {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.karma {
+    border-color: hsl(34, 97%, 64%);
+}
+
+.calculator {
+    border-color: hsl(212, 86%, 64%);
+}
+@media only screen and (min-width:760px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 2rem;
+        row-gap: 2rem;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .text-container p {
+        max-width: 50%;
+}
+
+    .sub-grid-container {
+        row-gap: 2rem;
+    }
+
+    .supervisor, .calculator {
+        margin:2rem 0;
+        height: fit-content;
+        margin-top: 5rem;
+        
+    }
+} 
+
