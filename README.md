@@ -28,8 +28,8 @@ This is my attempt at the Single price grid component master challenge
 
 ### Links
 
-- Solution URL: [Github](https://github.com/KierenLWoods/single-price-grid-component-master)
-- Live Site URL: [Add live site URL here](https://kierenlwoods.github.io/single-price-grid-component-master/)
+- Solution URL: [Github](https://github.com/KierenLWoods/four-card-feature-section)
+- Live Site URL: [Add live site URL here](https://kierenlwoods.github.io/four-card-feature-section/)
 
 ## My process
 ### Built with
